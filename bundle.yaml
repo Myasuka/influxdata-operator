@@ -205,7 +205,7 @@ data:
       bind-socket = "/var/run/influxdb.sock"
     [[graphite]]
       enabled = false
-      bind-address = 2003
+      bind-address = ":2003"
       database = "graphite"
       retention-policy = "autogen"
       protocol = "tcp"
